@@ -1,0 +1,65 @@
+table{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    border-radius:5px;
+}
+table tr:first-child td input{
+    width:420px;
+}
+table td {
+    border: 5px solid #000000;
+    border-radius: 5px;
+    text-align:center;
+    height:50px;
+    width:100px; 
+}
+
+table tr td input{
+    width:100%;
+    height:100%;
+}
+
+table tr:nth-child(2) td input {
+background-color: grey;
+}
+table tr:nth-child(3) td:nth-child(4) input {
+    background-color: rgb(114, 84, 232);
+}
+
+input{
+    cursor: pointer;
+}
+.container{
+    background-color: rgb(238, 244, 242);
+    width:100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+background: #868484;
+padding:15px;
+border-radius:10px;
+}
+.calculator form input{
+    width:50px;
+    height:50px;
+    border-radius: 8px;
+    background: transparent;
+    font-size: 18px;
+    color:aliceblue;
+    margin:8px;
+    background-color: #000000;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin:15px 0;
+}
+form .display input{
+    text-align:right;
+    font-size: 40px;
+    box-shadow: none;
+    flex:1;
+}

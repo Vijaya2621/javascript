@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" name="display" placeholder="0" id="disp">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="fun(this.value)">
+                    <input type="button" value="8" onclick="fun(this.value)">
+                    <input type="button" value="9" onclick="fun(this.value)">
+                    <input type="button" value="+" onclick="fun(this.value)">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="fun(this.value)">
+                    <input type="button" value="5" onclick="fun(this.value)">
+                    <input type="button" value="6" onclick="fun(this.value)">
+                    <input type="button" value="-" onclick="fun(this.value)">
+                </div>
+                <div>
+                    <input type="button" value="2" onclick="fun(this.value)">
+                    <input type="button" value="1" onclick="fun(this.value)">
+                    <input type="button" value="3" onclick="fun(this.value)">
+                    <input type="button" value="*" onclick="fun(this.value)">
+                </div>
+                <div>
+                    <input type="button" value="0" onclick="fun(this.value)">
+                    <input type="button" value="." onclick="fun(this.value)">
+                    <input type="button" value="C" onclick="fun(this.value)">
+                    <input type="button" value="/" onclick="fun(this.value)">
+                </div>
+                <div>
+                    <input type="button" value="=" class="equal" style="width:120px" onclick="fun(this.value)">
+                    <input type="button"  value="Del" class="equal" style="width:120px" onclick="fun(this.value)">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
