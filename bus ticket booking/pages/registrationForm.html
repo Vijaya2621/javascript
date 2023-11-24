@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../assets/css/registrationFormStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    <form>
+      <h1>REGISTRATION FORM</h1>
+      <div class="form-group fullname">
+        <input type="text" id="fullname" placeholder="Enter your full name">
+        <small id="fullnameError"></small>  
+      <div class="form-group email">  
+        <input type="text" id="email" placeholder="Enter your email address">
+        <small id="emailError"></small> 
+      </div>
+      <div class="form-group password">
+        <input type="password" id="password" placeholder="Enter your password">
+        <small id="passwordError"></small> 
+      </div>
+      <div class="form-group confirmpassword">
+        <input type="password" id="confirmPassword" placeholder="Confirm password">
+        <small id="confirmPasswordError"></small> 
+       
+      </div>
+      <div class="form-group date">
+        <input type="tel" id="phone" placeholder="Enter your number">
+        <small id="phoneError"></small> 
+      </div>
+      <div class="form-group submit-btn">
+        <input type="submit" id="submitBtn" value="Submit">
+      </div>
+    </form>
+    <script src="../assets/js/RegistrationForm.js"></script>
+  </body>
+</html>

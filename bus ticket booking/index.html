@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>testing</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+  </head>
+
+  <body>
+    <div class="topHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="contactInfo">
+              <a href="mailto:contact@example.com"
+                ><i class="fa-regular fa-envelope"></i> contact@example.com</a
+              >
+              <a href="tel:+1 55895548855">
+                <i class="fa-solid fa-mobile"></i> +1 5589 55488 55</a
+              >
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="socialMedia">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="navMenu">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#myNavbar"
+              >
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="#" id="logo"
+                ><img src="./assets/images/logo" alt="logo" width="100"
+              /></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                  <button type="button" class="makebutton navbar-btn">
+                    REGISTER
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section id="myHeader">
+      <div class="backgroundimage">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="text">
+                <h1>Easy & Efficient Charter Bus Rentals</h1>
+                <p>
+                  From queries to itineraries, for all things travel, there is
+                  Cleartrip. Checking your flight updates and PNR status is easy
+                  with our simple, intuitive app and booking site. Booking
+                  online hotels gets seamless with a range of choices and the
+                  greatest hotel deals.
+                </p>
+                <button type="button">
+                CONTACT US..
+                </button>
+              </div>
+            </div>
+            <div class="col-sm-6 col-sm-offset-1">
+                <div class="bg-img">
+                   <div class="content">
+                      <h1>CHOOSE YOUR JOURNEY</h1>
+                      <p>Choose and get grestest deals</p>
+                      <form  id="next">
+                         <div class=" form-group field">
+                            <select id="field">
+                              <option value="" selected disabled>Travel From</option>
+                              <option value="Male">Chandigarh</option>
+                              <option value="Female">Shimla</option>
+                              <option value="Other">Manali</option>
+                              <option value="Other">Rampur</option>
+                            </select>
+                         </div>
+                         <span id="error"></span>
+                         <div class=" form-group field">
+                            <select id="field1">
+                              <option value="" selected disabled>Travel To</option>
+                              <option value="Male">Chandigarh</option>
+                              <option value="Female">Shimla</option>
+                              <option value="Other">Manali</option>
+                              <option value="Other">Rampur</option>
+                            </select>
+                         </div>
+                         <span id="error1"></span>
+      
+                         <div class="field">
+                            <input type="date">
+                         </div>
+                         <div class="field">
+                            <input type="submit" id="goto" value="Find My Journey">
+                         </div>
+                      </form>
+                      <div class="signup">
+                         Don't have account?
+                         <a href="#">Signup Now</a>
+                      </div>
+                   </div>
+                </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./assets/js/homePage.js"></script>
+  </body>
+</html>

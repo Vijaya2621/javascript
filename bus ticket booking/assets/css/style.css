@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+  }
+  html body{
+    font-family: 'ralewaymedium',sans-serif;
+  }
+    header{
+    position:sticky;
+    background-color: rgba(245, 243, 243, 0.3);
+    top:0;
+    z-index:1;
+    padding-top: 10px;
+}
+.topHeader {
+    padding: 10px 0;
+}
+
+.socialMedia i{
+    color:#717579;
+}
+.topHeader .socialMedia {
+    float: right;
+}
+
+.topHeader a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+}
+
+.topHeader a:last-child {
+    margin-right: 0;
+}
+.topHeader .contactInfo i{
+    color:#717579;
+}
+nav.navbar.navbar-default{
+    background-color: rgb(255 255 255);
+    border:none;
+}
+ul.nav.navbar-nav{
+float:right;
+}
+#myNavbar li{
+    font-size:15px;
+    color:rgb(77 102 124)
+}
+.makebutton{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color:#717579;
+    color: white;
+    
+}
+.backgroundimage {
+    width: 100%;
+    height:500px;
+  background: url("../images/photo-1633012818159-009a471e410c.avif") top center;
+    background-size: cover;
+}
+.backgroundimage h1{
+    font-size:40px;
+    color:#f3f3f4;
+    font-family: 'ralewaybold',sans-serif ;
+}
+.backgroundimage p{
+    font-size:20px;
+    color:#eff2f4;
+}
+.backgroundimage button{
+    border-radius: 10px;
+    margin:20px 20px;
+    padding:15px 25px;
+    background-color:#fff;
+    color:#000;
+    border:1px solid #fff;
+}
+
+
+
+/*bookTicket css*/
+.content{
+    z-index: 999;
+    text-align: center;
+    padding: 10px 25px;
+    width: 370px;
+    background: rgba(0,0,0, 0.7);
+    box-shadow: -1px 4px 28px 0px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    margin-top:40px;
+    margin-left: 100px;
+   
+  }
+  .content header{
+    color: white;
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0 0 25px 0;
+    font-family: 'Montserrat',sans-serif;
+  }
+.field{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255,255,255,0.94);
+    margin-top: 10px;
+    border-radius: 5px;
+    
+  }
+  .field span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+  }
+ 
+  .field input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border:1px solid #fff;
+    padding-left: 10px;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+  }
+  form input,
+form select {
+  height: 45px;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #bfbfbf;
+}
+  .space{
+    margin-top: 16px;
+  }
+  .show{
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    display: none;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+  }
+  .pass-key:valid ~ .show{
+    display: block;
+  }
+  .pass{
+    text-align: left;
+    margin: 10px 0;
+  }
+  .pass a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+  }
+  .pass:hover a{
+    text-decoration: underline;
+  }
+  .field input[type="submit"]{
+    background: #f19947;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+  }
+  .field input[type="submit"]:hover{
+    background: #904805;
+  }
+  .login{
+    color: white;
+    margin: 20px 0;
+    font-family: 'Poppins',sans-serif;
+  }
+  .links{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 20px 0;
+  }
+  .links i{
+    font-size: 17px;
+  }
+  i span{
+    margin-left: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+  }
+  .signup{
+    font-size: 15px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 10px;
+  }
+  .signup a{
+    color: #ebdd75;
+    text-decoration: none;
+  }
+  .signup a:hover{
+    text-decoration: underline;
+  }
+  span{
+    color: #fff;
+  }
