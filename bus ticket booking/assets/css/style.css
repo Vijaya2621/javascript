@@ -91,7 +91,7 @@ float:right;
     background: rgba(0,0,0, 0.7);
     box-shadow: -1px 4px 28px 0px rgba(255, 255, 255, 0.5);
     border-radius: 10px;
-    margin-top:40px;
+    margin-top:30px;
     margin-left: 100px;
    
   }
@@ -217,3 +217,8 @@ form select {
   span{
     color: #fff;
   }
+
+
+
+ 
+
