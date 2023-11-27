@@ -12,10 +12,10 @@
     background-color: rgba(245, 243, 243, 0.3);
     top:0;
     z-index:1;
-    padding-top: 10px;
 }
 .topHeader {
     padding: 10px 0;
+    background-color:rgba(255, 255, 255 ) ;
 }
 
 .socialMedia i{

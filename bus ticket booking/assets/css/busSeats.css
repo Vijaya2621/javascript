@@ -3,12 +3,34 @@
     font-size: 16px;
   }
 
+body{ 
+background: url("../images/photo-1633012818159-009a471e410c.avif") top center;
+  background-size: cover;
+
+}
+.heading1{
+  width:300px;
+  margin-left: 50%;
+  transform: translate(-50%,0);
+
+}
+
   h1{
     font-family: 'ralewaymedium',sans-serif;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    padding:20px 0;
+    margin-top:0;
+    border-radius: 10px;
   }
   .bus {
+    background-color: rgba(255,255,255,0.5);
     margin: 20px auto;
     max-width: 300px;
+   
+    border-radius: 10px;
+    padding: 20px 30px;
   } 
   .buses {
     border-right: 5px solid #d8d8d8;
@@ -68,7 +90,7 @@
     text-align: center;
     line-height: 40px;
     padding: 4px 0;
-    background: #25b9f4;
+    background:#f4ac25;
     border-radius: 5px;
   }
   .seat label:hover {
@@ -97,4 +119,5 @@
       span{
         font-family: 'ralewaymedium',sans-serif ;
       }
+     
     

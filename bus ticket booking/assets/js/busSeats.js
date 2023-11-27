@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (checkbox.checked) {
                 totalAmount += seatPrice;
-                seatLabel.style.backgroundColor = '#dddddd;'; 
+                seatLabel.style.backgroundColor = '#da5555'; 
             } else {
                 totalAmount -= seatPrice;
-                seatLabel.style.backgroundColor = '#25b9f4;'; 
+                seatLabel.style.backgroundColor = '#f4ac25'; 
             }
 
             totalAmountDisplay.innerHTML = totalAmount;
