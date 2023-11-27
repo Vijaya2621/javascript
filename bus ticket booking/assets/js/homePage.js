@@ -2,8 +2,8 @@
 function Valid() {
         let from = document.getElementById("field").value;
         let to = document.getElementById("field1").value;
-        let date = document.querySelector('input[type="date"]').value;
-        let selectSeat = document.getElementById("goto");
+        // let date = document.querySelector('input[type="date"]').value;
+        // let selectSeat = document.getElementById("goto");
  
       
         // Validation for "Travel From" field
@@ -31,19 +31,15 @@ function Valid() {
         else{
             document.getElementById("error1").innerHTML = "";
         }
-
+        return true;
         // Additional validation logic can be added as needed
-       
-       
-   return true;
     }
 
         let forms = document.getElementById("next");
         forms.addEventListener("submit", function(e){
         e.preventDefault();
-        if(Valid()){
-            window.location.href= "../pages/buslist.html";
-        }
+        if(Valid())
+            window.location.href="./pages/busList.html";
         })
 
 

@@ -59,7 +59,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li>
-                  <button type="button" class="makebutton navbar-btn">
+                  <button type="button" class="makebutton navbar-btn" >
                     REGISTER
                   </button>
                 </li>
@@ -93,10 +93,10 @@
                    <div class="content">
                       <h1>CHOOSE YOUR JOURNEY</h1>
                       <p>Choose and get grestest deals</p>
-                      <form  id="next" onsubmit="Valid()">
+                      <form  id="next">
                          <div class=" form-group field">
                             <select id="field">
-                              <option value="" selected disabled>Travel From</option>
+                              <option value="" selected="" hidden disabled>Travel From</option>
                               <option value="Male">Chandigarh</option>
                               <option value="Female">Shimla</option>
                               <option value="Other">Manali</option>
@@ -106,7 +106,7 @@
                          <span id="error"></span>
                          <div class=" form-group field">
                             <select id="field1">
-                              <option value="" selected disabled>Travel To</option>
+                              <option value="" selected="" hidden disabled>Travel To</option>
                               <option value="Male">Chandigarh</option>
                               <option value="Female">Shimla</option>
                               <option value="Other">Manali</option>
@@ -116,7 +116,7 @@
                          <span id="error1"></span>
       
                          <div class="field">
-                            <input type="date">
+                            <input type="date" min="2023-11-27">
                          </div>
                          <div class="field">
                             <input type="submit" id="goto" value="Find My Journey">
@@ -124,7 +124,7 @@
                       </form>
                       <div class="signup">
                          Don't have account?
-                         <a href="#">Signup Now</a>
+                         <a href="./pages/registrationForm.html">Signup Now</a>
                       </div>
                    </div>
                 </div>

@@ -6,7 +6,7 @@
     user-select: none;
   }
   .bg-img{
-    background: url('/assets/images/photo-1633012818159-009a471e410c.avif');
+    background: url('../images/photo-1633012818159-009a471e410c.avif');
     height: 100vh;
     background-size: cover;
     background-position: center;
