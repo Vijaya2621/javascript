@@ -74,7 +74,6 @@ const phoneRegex = /^\(?\d{3}\)?[- ]?\d{3}-?\d{4}$/;
   }
 
   // All validations passed, submit the form
-  alert('Form submitted successfully!');
   return true;
 }
 
