@@ -27,15 +27,9 @@ const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[a-zA-Z\d@
 const phoneRegex = /^\(?\d{3}\)?[- ]?\d{3}-?\d{4}$/;
 
 
-// if(localStorage.getItem(email))
-// {
-//     alert("user already exist!");
-//     return;
-// }
-
   // Validate full name
   if (!fullnameRegex.test(fullnameInput.value.trim())) {
-    fullnameError.textContent = 'Please enter a valid full name (First and Last Name)';
+    fullnameError.textContent = 'Please enter a valid full name';
     return;
   } else {
     fullnameError.textContent = '';

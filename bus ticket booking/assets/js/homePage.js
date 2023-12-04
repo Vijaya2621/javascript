@@ -8,7 +8,7 @@ function Valid() {
       
         // Validation for "Travel From" field
         if (from === "" && to === "") {
-            document.getElementById("error").innerHTML = "Please select 'Travel From'";
+            document.getElementById("error").innerHTML = "Please select 'Departure'";
             return false;
         } else {
             document.getElementById("error").innerHTML = "";
@@ -16,7 +16,7 @@ function Valid() {
 
         // Validation for "Travel To" field
         if (to === "") {
-            document.getElementById("error1").innerHTML = "Please select 'Travel To'";
+            document.getElementById("error1").innerHTML = "Please select 'Destination'";
             return false;
         
         } else {
@@ -25,14 +25,14 @@ function Valid() {
 
         // validation for same places
         if(to == from){
-            document.getElementById("error1").innerHTML = "departure and destiny cannot be same";
+            document.getElementById("error1").innerHTML = "Departure and destination cannot be same";
             return false;
         }
         else{
             document.getElementById("error1").innerHTML = "";
         }
         return true;
-        // Additional validation logic can be added as needed
+       
     }
 
         let forms = document.getElementById("next");
