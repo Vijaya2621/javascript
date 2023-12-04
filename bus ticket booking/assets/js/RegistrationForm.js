@@ -71,13 +71,45 @@ const phoneRegex = /^\(?\d{3}\)?[- ]?\d{3}-?\d{4}$/;
   return true;
 }
 
+// to see the entered password
+function togglePasswordVisibility() {
+  const passwordInput = document.querySelector("#password");
+  const eyeIcon = document.querySelector("#eye");
+
+  if (passwordInput.type === "password") {
+      passwordInput.type = "text";
+      eyeIcon.classList.remove("fa-eye-slash");
+      eyeIcon.classList.add("fa-eye");
+  } else {
+      passwordInput.type = "password";
+      eyeIcon.classList.remove("fa-eye");
+      eyeIcon.classList.add("fa-eye-slash");
+  }
+}
+
+// to see the entered confirm password
+function toggleConfirmPasswordVisibility() {
+  const confirmPasswordInput = document.querySelector("#confirmPassword");
+  const eyeIcon = document.querySelector("#eye1");
+
+  if (confirmPasswordInput.type === "password") {
+    confirmPasswordInput.type = "text";
+      eyeIcon.classList.remove("fa-eye-slash");
+      eyeIcon.classList.add("fa-eye");
+  } else {
+    confirmPasswordInput.type = "password";
+      eyeIcon.classList.remove("fa-eye");
+      eyeIcon.classList.add("fa-eye-slash");
+  }
+}
+
 function registerDataStore() {
   const fullname = document.getElementById('fullname').value;
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
   const phone = document.getElementById('phone').value;
 
-  const userId = Date.now(); // Generate a unique timestamp
+  const userId = Date.now(); 
   const dataStore = {
     fullname: fullname,
     email: email,
