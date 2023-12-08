@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "vijaya",
+        "price":200,
+        "image":"./assets/images/blod-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "vijaya",
+        "price":200,
+        "image":"./assets/images/blod-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "vijaya",
+        "price":200,
+        "image":"./assets/images/blod-1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "vijaya",
+        "price":200,
+        "image":"./assets/images/blod-1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "vijaya",
+        "price":200,
+        "image":"./assets/images/blod-1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "vijaya",
+        "price":200,
+        "image":"./assets/images/blod-1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "vijaya",
+        "price":200,
+        "image":"./assets/images/blod-1.jpg"
+    }
+]
