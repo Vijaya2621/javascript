@@ -77,8 +77,6 @@ const fullAddressRegex =/^\d+\s+(?:[A-Za-z0-9\s]+)+/;
  
   return true;
 }
-
-
 function registerDataStore() {
     const fullname = document.getElementById('fullname').value;
     const email = document.getElementById('email').value;
@@ -96,7 +94,7 @@ function registerDataStore() {
   
     localStorage.setItem(email, JSON.stringify(dataStore));
     alert('Registered Successfully!');
-  window.location.href ="../pages/loginPage.html";
+  window.location.href ="../pages/login.html";
   }
 
 

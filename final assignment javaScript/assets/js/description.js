@@ -1,12 +1,9 @@
 
 const urlParams = new URLSearchParams(window.location.search);
 const itemId = urlParams.get('id');
-
-// Fetch the details for the specific item using the item ID
 fetch(`https://fakestoreapi.com/products/${itemId}`)
   .then(response => response.json())
   .then((item) => {
-    // Populate the description page with the item details
     document.getElementById('productdescription').innerHTML = `
       <h1>${item.title}</h1>
       <div class="images">
